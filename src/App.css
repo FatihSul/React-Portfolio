@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+:root{
+--blue: #05204A;
+--lightblue: #80CED7;
+--white: #fff;
+--red: #ED6A5A;
+}
+
+/* fixes alignment for header and footer */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color for the site */
+body{
+    background-color: var(--lightblue) ;
+}
+
+/* gives header the blue background, white text, font & spacing needed */
+.header{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* aligns the header */
+.header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* next few aligns the nav */
+.header nav{
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: var(--blue);
+}
+
+.header nav ul{
+    list-style-type: none;
+    white-space: nowrap;
+}
+ 
+.header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.header nav ul li:hover{
+    cursor: grabbing;
+}
+
+.header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* relative position alignment for the selfie text */
+.selfie {
+    position: relative;
+}
+
+/* banner text */
+.selfie p {
+    position: absolute;
+    top: 100px;
+    left: 225px;
+}
+
+/* banner image specs */
+.selfie img {
+    height: 200px;
+    border-radius: 30%;
+}
+
+/* reactive image */
+.selfie img:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* allows the sections to flex and organize it towards the middle */
+.section{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+/* handles the cards flex */
+.subsection{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* "work" text align */
+.subsection h2{
+    text-align: center;
+}
+
+/* resume margins */
+.section h2{
+    margin-right: 30px;
+}
+
+.section .content {
+    border-left: 1px solid black;
+    padding: 30px;
+}
+
+/* card flex main group */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 47px;
+    list-style: none;
+}
+
+/* card sizes */
+.flex-item {
+  background: var(--red);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 3em;
+  border: 10px var(--lightblue);
+  position: relative;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+/* size increase and full opacity with hover */
+.flex-item:hover {
+    opacity: 1;
+    transition: 0.5s;
+    height: 300px;
+    width: 300px;
+}
+
+/* card text */
+.flex-item a {
+    position: absolute;
+    left: 10px;
+    bottom: -50px;
+    font-size: 50%;
+    color: black;
+}
+
+/* individualized backgrounds for each card */
+.main-item {
+    flex-basis: 100%;
+    background-image: url(../public/Defactor.png);
+    background-size: cover;
+}
+
+.second-item {
+    background-image: url(../public/weather-search.png);
+    background-size: cover;
+}
+
+.third-item{
+    background-image: url(../public/Twitter.png);
+    background-size: cover;
+}
+
+.fourth-item{
+    background-image: url(../public/Youtube.jpg);
+    background-size: cover;
+}
+
+.fifth-item{
+    background-image: url(../public/Facebook.png);
+    background-size: cover;
+}
+
+/* footer */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--blue);
+    color: white;
+    text-align: left;
+ }
+
+ /* scales the header to flex for phones */
+ @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+  }
