@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.586bd73c.css",
+    "main.js": "/React-Portfolio/static/js/main.6c272132.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/weather-search.png": "/React-Portfolio/static/media/weather-search.2a2b5ecf9b1bbb427df7.png",
+    "static/media/Defactor.png": "/React-Portfolio/static/media/Defactor.6fbad7058f42c1fb76dc.png",
+    "static/media/Selfie.png": "/React-Portfolio/static/media/Selfie.1b032ee66094bf92a423.png",
+    "static/media/Youtube.jpg": "/React-Portfolio/static/media/Youtube.c4256b03542f2957f78e.jpg",
+    "static/media/Twitter.png": "/React-Portfolio/static/media/Twitter.c169633b61c9edc1da09.png",
+    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.586bd73c.css.map": "/React-Portfolio/static/css/main.586bd73c.css.map",
+    "main.6c272132.js.map": "/React-Portfolio/static/js/main.6c272132.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.586bd73c.css",
+    "static/js/main.6c272132.js"
+  ]
+}
