@@ -208,17 +208,22 @@ body{
 }
 
 .third-item{
-    background-image: url(../public/Twitter.png);
+    background-image: url(../public/noteTaker.png);
     background-size: cover;
 }
 
 .fourth-item{
-    background-image: url(../public/Youtube.jpg);
+    background-image: url(../public/weatherDashboard.png);
     background-size: cover;
 }
 
 .fifth-item{
-    background-image: url(../public/Facebook.png);
+    background-image: url(../public/readmeGenerator.png);
+    background-size: cover;
+}
+
+.sixth-item{
+    background-image: url(../public/project2.png);
     background-size: cover;
 }
 

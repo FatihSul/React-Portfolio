@@ -38,9 +38,10 @@ function App() {
     <ul className="flex-container"> 
       <li className="flex-item main-item" alt="Refactor-SEO"><a href="https://fatihsul.github.io/Refactor-SEO/">Refactor-SEO</a></li>
       <li className="flex-item second-item" alt="Cocktail-Curator"><a href="https://james-stapleton.github.io/Cocktail-Curator/">Cocktail-Curator</a></li>
-      <li className="flex-item third-item" alt="Twitter"><a href="https://twitter.com">Twitter</a></li>
-      <li className="flex-item fourth-item" alt="Youtube"><a href="https://youtube.com">Youtube</a></li>
-      <li className="flex-item fifth-item" alt="Facebook"><a href="https://facebook.com">Facebook</a></li>
+      <li className="flex-item third-item" alt="Note-Taker"><a href="https://note-taker-fs.herokuapp.com/">Note-Taker</a></li>
+      <li className="flex-item fourth-item" alt="Weather-Dashboard"><a href="https://fatihsul.github.io/Weather-Dashboard/">Weather-Dashboard</a></li>
+      <li className="flex-item fifth-item" alt="Facebook"><a href="https://github.com/FatihSul/Professional-README-Generator">README-Generator</a></li>
+      <li className="flex-item sixth-item" alt="Facebook"><a href="https://cocktail-curator-3.herokuapp.com/">Cocktail-Curator-2</a></li>
     </ul>
   </section>
   {/* resume section */}
